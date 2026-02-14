@@ -1,0 +1,5 @@
+{
+  "bos_token": "\u003C|endoftext|\u003E",
+  "eos_token": "\u003C|endoftext|\u003E",
+  "unk_token": "\u003C|endoftext|\u003E"
+}

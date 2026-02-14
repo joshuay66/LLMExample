@@ -1,0 +1,11 @@
+The quick brown fox jumps over the lazy dog. This is a simple sample text file for testing the training pipeline. You should replace this with your own training data for better results.
+
+Language models learn by predicting the next word in a sequence. Given a sequence of words, the model tries to guess what comes next. Through thousands of iterations of this process, the model gradually learns the patterns, grammar, and style of the text it was trained on.
+
+The transformer architecture revolutionized natural language processing. Before transformers, recurrent neural networks processed text one word at a time, which was slow and made it hard to learn long-range dependencies. Transformers process all words simultaneously using a mechanism called self-attention, which allows each word to directly attend to every other word in the sequence.
+
+Self-attention works by computing three vectors for each token: a query, a key, and a value. The query asks what am I looking for, the key says what do I contain, and the value provides the actual information. The attention score between two tokens is the dot product of the query of one token and the key of the other, scaled by the square root of the dimension. These scores are then normalized using softmax to create a probability distribution, and the output is a weighted sum of the value vectors.
+
+Training a language model involves minimizing the cross-entropy loss between the model's predicted probability distribution over the vocabulary and the actual next token. The optimizer adjusts the model's parameters using gradient descent, gradually improving the predictions over many iterations.
+
+This sample file provides enough text to verify that the training pipeline works correctly. For meaningful text generation, you would want to train on a much larger dataset, such as a collection of books, articles, or other text that represents the style and content you want the model to learn.

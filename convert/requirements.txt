@@ -1,0 +1,7 @@
+# Python dependencies for GGUF conversion
+# Install with: pip install -r requirements.txt
+
+torch           # PyTorch - needed by llama.cpp's converter to read model weights
+numpy           # NumPy - numerical operations used during conversion
+safetensors     # SafeTensors - reads the .safetensors model file format
+gguf            # GGUF - the output format library for llama.cpp
